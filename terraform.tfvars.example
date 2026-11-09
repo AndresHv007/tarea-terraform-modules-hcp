@@ -1,0 +1,5 @@
+# Credenciales de Cloudflare (ejemplo de plantilla para Workspace o local)
+account_id       = "tu_account_id_de_cloudflare"
+api_token        = "tu_api_token_con_permisos_workers_y_d1"
+worker_name      = "practica-11-worker-modular"
+d1_database_name = "practica-11-d1-modular"

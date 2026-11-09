@@ -1,0 +1,34 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+!terraform.tfvars.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+
+# Canvas delivery artifacts & local task metadata
+capturas/
+evidencias/
+EVIDENCIAS.md
+TASK_SPEC.md
+ERROR_LOG.md
+HARNESS_FEEDBACK.json
+*.log
+.agent_prompt.md
+.execution_trace.md
+.last_run_context.log
+
+
